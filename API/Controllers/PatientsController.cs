@@ -11,6 +11,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace API.Controllers
 {
+    [Authorize]
     public class PatientsController : BaseApiController
     {
        private readonly DataContext _context;
@@ -32,7 +33,7 @@ namespace API.Controllers
             return await patients;
         }
 
-        [Authorize]
+        // [Authorize]
         [HttpGet("{id}")]
         public async Task<ActionResult<Patient>> GetPatient(int id){
             var patients = _context.Patients.FindAsync(id);

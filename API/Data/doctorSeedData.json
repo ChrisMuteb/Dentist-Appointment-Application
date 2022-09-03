@@ -1,0 +1,142 @@
+[
+    {
+      "Name": "Dale",
+      "Speciality": "dentist",
+      "DateOfBirth": "1979-04-26",
+      "Gender": "male",
+      "Country": "Moldova",
+      "StartDateTime": "2022-10-14",
+      "EndDateTime": "2022-10-22",
+      "Photos": 
+        {
+          "Url": "https://randomuser.me/api/portraits/men/86.jpg"
+        }
+      
+    },
+    {
+      "Name": "Lyons",
+      "Speciality": "dentist",
+      "DateOfBirth": "1961-06-23",
+      "Gender": "male",
+      "Country": "Aruba",
+      "StartDateTime": "2022-10-30",
+      "EndDateTime": "2022-10-10",
+      "Photos": 
+        {
+          "Url": "https://randomuser.me/api/portraits/men/8.jpg"
+        }
+      
+    },
+    {
+      "Name": "Hebert",
+      "Speciality": "dentist",
+      "DateOfBirth": "1970-05-24",
+      "Gender": "male",
+      "Country": "Nicaragua",
+      "StartDateTime": "2022-10-21",
+      "EndDateTime": "2022-10-22",
+      "Photos": 
+        {
+          "Url": "https://randomuser.me/api/portraits/men/53.jpg"
+        }
+      
+    },
+    {
+      "Name": "Whitfield",
+      "Speciality": "dentist",
+      "DateOfBirth": "1991-02-09",
+      "Gender": "male",
+      "Country": "France, Metropolitan",
+      "StartDateTime": "2022-10-15",
+      "EndDateTime": "2022-10-19",
+      "Photos": 
+        {
+          "Url": "https://randomuser.me/api/portraits/men/64.jpg"
+        }
+      
+    },
+    {
+      "Name": "Jennings",
+      "Speciality": "dentist",
+      "DateOfBirth": "1985-06-18",
+      "Gender": "male",
+      "Country": "Colombia",
+      "StartDateTime": "2022-10-17",
+      "EndDateTime": "2022-10-29",
+      "Photos": 
+        {
+          "Url": "https://randomuser.me/api/portraits/men/2.jpg"
+        }
+      
+    },
+        {
+          "Name": "Ruby",
+          "Speciality": "doctor",
+          "DateOfBirth": "1987-03-08",
+          "Gender": "female",
+          "Country": "Barbados",
+          "StartDateTime": "2022-10-28",
+          "EndDateTime": "2022-10-09",
+          "Photos": 
+            {
+              "Url": "https://randomuser.me/api/portraits/women/93.jpg"
+            }
+          
+        },
+        {
+          "Name": "Joni",
+          "Speciality": "doctor",
+          "DateOfBirth": "1974-12-28",
+          "Gender": "female",
+          "Country": "Portugal",
+          "StartDateTime": "2022-10-30",
+          "EndDateTime": "2022-10-21",
+          "Photos": 
+            {
+              "Url": "https://randomuser.me/api/portraits/women/75.jpg"
+            }
+          
+        },
+        {
+          "Name": "Maritza",
+          "Speciality": "doctor",
+          "DateOfBirth": "1950-04-30",
+          "Gender": "female",
+          "Country": "Taiwan",
+          "StartDateTime": "2022-10-27",
+          "EndDateTime": "2022-10-08",
+          "Photos": 
+            {
+              "Url": "https://randomuser.me/api/portraits/women/83.jpg"
+            }
+          
+        },
+        {
+          "Name": "Viola",
+          "Speciality": "doctor",
+          "DateOfBirth": "1987-04-04",
+          "Gender": "female",
+          "Country": "Liechtenstein",
+          "StartDateTime": "2022-10-31",
+          "EndDateTime": "2022-10-24",
+          "Photos": 
+            {
+              "Url": "https://randomuser.me/api/portraits/women/42.jpg"
+            }
+          
+        },
+        {
+          "Name": "Michelle",
+          "Speciality": "doctor",
+          "DateOfBirth": "1950-04-14",
+          "Gender": "female",
+          "Country": "Bahrain",
+          "StartDateTime": "2022-10-22",
+          "EndDateTime": "2022-11-01",
+          "Photos": 
+            {
+              "Url": "https://randomuser.me/api/portraits/women/16.jpg"
+            }
+          
+        }
+  ]
