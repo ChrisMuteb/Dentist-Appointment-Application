@@ -1,1 +1,19 @@
-<p>appointmentform works!</p>
+<section class="doctors">
+  <div class="container">
+    <h1 class="text-center">Available Doctors</h1>
+
+    <div class="row mt-5" >
+      <div class="col-lg-3 mb-5" *ngFor="let doctor of doctors">
+        <div class="box shadow-sm">
+          <img src="{{doctor.photoUrl}}" width="100%" alt="">
+          <h4 class="mt-2">Dr. {{doctor.name}}</h4>
+          <p>{{doctor.speciality}} <br>Availabe on {{doctor.startDateTime}}</p>
+
+          <button class="btn btn-primary btn-sm mt-2">Set the Appointment</button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+</section>

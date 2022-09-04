@@ -3,42 +3,42 @@
     <h3>Sign Up</h3>
 
     <form #registerForm="ngForm" (ngSubmit)="register()" autocomplete="off">
-      
+
       <div class="mb-3">
         <label for="exampleInputPassword1" class="form-label">First Name</label>
         <input
           type="text" class="form-control" id="exampleInputPassword1"
-          name="name"
-          [(ngModel)]="model.name">
+          name="fname"
+          [(ngModel)]="model.firstname">
       </div>
       <div class="mb-3">
         <label for="exampleInputPassword1" class="form-label">Last Name</label>
         <input
           type="text" class="form-control" id="exampleInputPassword1"
-          name="name"
-          [(ngModel)]="model.name">
+          name="lname"
+          [(ngModel)]="model.lastname">
       </div>
       <div class="mb-3">
         <label for="exampleInputPassword1" class="form-label">Gender</label>
         <input
           type="text" class="form-control" id="exampleInputPassword1"
-          name="name"
-          [(ngModel)]="model.name">
+          name="gender"
+          [(ngModel)]="model.gender">
       </div>
       <div class="mb-3">
         <label for="exampleInputPassword1" class="form-label">Phone Number</label>
         <input
           type="text" class="form-control" id="exampleInputPassword1"
-          name="name"
-          [(ngModel)]="model.name">
+          name="phoneNum"
+          [(ngModel)]="model.phonenumber">
       </div>
       <div class="mb-3">
         <label for="exampleInputEmail1" class="form-label">Email address</label>
         <input
           type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-          placeholder="Username"
-          name="username"
-          [(ngModel)]="model.username">
+          placeholder="Email"
+          name="email"
+          [(ngModel)]="model.email">
         <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
       </div>
       <div class="mb-3">
