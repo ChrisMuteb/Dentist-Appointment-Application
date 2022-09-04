@@ -1,0 +1,41 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" routerLink="">Dr. Kemal's</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" routerLink="" routerLinkActive="active-link">HOME</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="newpatient" routerLinkActive="active-link">NEW PATIENT</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="ourservice" routerLinkActive="active-link">OUR SERVICES</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" routerLink="contactus" routerLinkActive="active-link">CONTACT US</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="about" routerLinkActive="active-link">ABOUT</a>
+        </li>
+      </ul>
+
+
+
+    </div>
+    <!-- <form class="d-flex" role="search"> -->
+      <!-- <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"> -->
+      <a class="btn btn-outline-primary" routerLink="bookanappointment">BOOK AN APPOINTMENT</a>
+    <!-- </form> -->
+  </div>
+</nav>
+
+<router-outlet></router-outlet>
+
+<footer class="text-center mt-2">
+  <p>&copy; Dr. Kemal's Dentistry 2022. All right reserved</p>
+</footer>

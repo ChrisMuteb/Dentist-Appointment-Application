@@ -1,0 +1,14 @@
+.bookanappointment{
+  background-color: #eff6ff;
+  padding: 70px 100px;
+}
+.login{
+  background-color: #ffffff;
+  padding: 20px 30px;
+}
+
+@media screen and (max-width:600px){
+  .bookanappointment{
+    padding: 140px 30px;
+  }
+}

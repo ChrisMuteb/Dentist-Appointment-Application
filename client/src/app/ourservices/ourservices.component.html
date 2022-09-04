@@ -1,0 +1,18 @@
+<section class="ourservice">
+  <div class="container">
+    <h1 class="text-center">Our Services</h1>
+
+    <div class="row mt-5" >
+      <div class="col-lg-3 mb-5" *ngFor="let service of services">
+        <div class="box shadow-sm">
+          <img src="{{service.image}}" width="100%" alt="">
+          <h4 class="mt-2">{{service.name}}</h4>
+          <p class="mt-2">{{service.description}}</p>
+          <button class="btn btn-primary btn-sm mt-2">See details</button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+</section>
